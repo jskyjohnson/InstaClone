@@ -3,7 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 
 //My imports
-import Header from "./components/header/Header";
+import TopNav from "./components/topnav/TopNav";
 import { NavLink } from "react-router-dom";
 import { Route, Switch, Redirect } from "react-router";
 
@@ -13,7 +13,7 @@ import About from "./pages/About";
 function App() {
   return (
     <div className="App">
-      <Header />
+      <TopNav />
 
       <Switch>
         <Route path="/gallery" component={Home} />
