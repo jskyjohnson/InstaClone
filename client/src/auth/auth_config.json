@@ -1,0 +1,6 @@
+{
+  "domain": "isky.us.auth0.com",
+  "clientId": "a22TmxMDbuIGUIDVZGLLQJPZ830HS6wP",
+  "redirect_uri": "http://localhost:3000",
+  "audience": "https://iskyzgram.herokuapp.com/v1/graphql"
+}

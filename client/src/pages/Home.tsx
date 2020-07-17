@@ -1,9 +1,10 @@
 import React from 'react';
-
+import Post from '../components/post/Post'
+import PostFeed from '../components/postfeed/PostFeed'
 function Home() {
   return (
     <div>
-      <p>Home!</p>
+        <PostFeed/>
     </div>
   );
 }
